@@ -1,0 +1,47 @@
+* {
+
+}
+header {
+	text-align: center;
+}
+
+header h1 {
+	margin-bottom: 50px;
+	display:inline-block;
+	border-bottom: 1px solid black;
+}
+.menu {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.game-board {
+	font-size:0;
+	margin: 0 auto;
+	width:602px;
+	height:602px;
+
+}
+
+.tile {
+	font-size:150px;
+	width:200px;
+	height:200px;
+	display:inline-block;
+	vertical-align: top;
+	text-align: center;
+	line-height: 200px;
+}
+
+.left {
+	border-right:1px solid black;
+}
+
+.right {
+	border-left: 1px solid black;
+}
+
+.mid {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
